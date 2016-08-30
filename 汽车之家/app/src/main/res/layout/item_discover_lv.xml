@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_discover_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_discover_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iv_discover_logo"
+        android:text="title"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_discover_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_discover_title"
+        android:layout_below="@+id/tv_discover_title"
+        android:layout_marginTop="5dp"
+        android:text="info"
+        android:textSize="10sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_discover_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_discover_info"
+        android:layout_below="@+id/tv_discover_info"
+        android:text="price"
+        android:textColor="#f20707"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_discover_fct_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_discover_price"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tv_discover_price"
+        android:text="fct"
+        android:textSize="10sp"/>
+</RelativeLayout>

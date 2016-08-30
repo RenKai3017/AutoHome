@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_grid_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_grid_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_grid_logo"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="title"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_grid_short_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_grid_title"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="brand"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_grid_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_grid_short_title"
+        android:layout_marginLeft="5dp"
+        android:text="price"
+        android:layout_marginBottom="5dp"
+        android:textSize="12sp"
+        android:textColor="#f40410"/>
+
+    <TextView
+        android:id="@+id/tv_grid_fct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_grid_price"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tv_grid_price"
+        android:text="fct"
+        android:textSize="10sp"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="0.5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#e4e3e2"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <TextView
+        android:layout_below="@+id/tv_grid_price"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e4e3e2"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

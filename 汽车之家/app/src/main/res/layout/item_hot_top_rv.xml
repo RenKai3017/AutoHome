@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="title"/>
+
+    <TextView
+        android:id="@+id/tv_top_bbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_top_title"
+        android:layout_below="@+id/tv_top_title"
+        android:text="bbs"
+        android:textColor="#c6c4c4"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_top_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_top_bbs"
+        android:layout_marginLeft="10dp"
+        android:textColor="#c6c4c4"
+        android:layout_toRightOf="@+id/tv_top_bbs"
+        android:text="date"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_top_replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_top_date"
+        android:layout_alignParentRight="true"
+        android:textColor="#c6c4c4"
+        android:layout_marginRight="10dp"
+        android:text="replay"
+        android:textSize="10sp"/>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lanou3g.autohome.MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<ImageView-->
+        <!--android:src="@mipmap/auto_searchbar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_toRightOf="@+id/replace_fl"/>-->
+
+    <FrameLayout
+        android:id="@+id/replace_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_line"/>
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c4c4"
+        android:layout_above="@+id/radio_group"
+        android:layout_alignTop="@+id/radio_group"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#EDEDED"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/recommend_rdo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/recommend_selector"
+            android:button="@null"
+            android:padding="20dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/forum_rdo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/forum_selector"
+            android:button="@null"
+            android:padding="20dp"/>
+
+        <RadioButton
+            android:id="@+id/look_auto_rdo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/find_car_selector"
+            android:button="@null"
+            android:padding="20dp"/>
+
+        <RadioButton
+            android:id="@+id/discover_rdo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/discover_selector"
+            android:button="@null"
+            android:padding="20dp"/>
+
+        <RadioButton
+            android:id="@+id/mine_rdo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/mine_selector"
+            android:button="@null"
+            android:padding="20dp"/>
+    </RadioGroup>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <TextView
+            android:id="@+id/title_tv"
+            android:text="论坛"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#f5f5f2"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/close_drawer"
+            android:text="关闭"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#55c9ff"
+            android:padding="10dp"/>
+
+        <FrameLayout
+            android:layout_below="@+id/title_tv"
+            android:id="@+id/drawer_replace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <!--<TextView-->
+            <!--android:id="@+id/dialog"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:background="#696666"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#ffffffff"-->
+            <!--android:textSize="30dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:visibility="invisible" />-->
+        <!--<com.lanou3g.autohome.tool.MySlideView-->
+            <!--android:id="@+id/slide_bar"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"/>-->
+        <!--<com.lanou3g.autohome.tool.SideBar-->
+            <!--android:layout_below="@+id/tv_drawer_line"-->
+            <!--android:id="@+id/side_bar"-->
+            <!--android:layout_width="30.0dip"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"/>-->
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

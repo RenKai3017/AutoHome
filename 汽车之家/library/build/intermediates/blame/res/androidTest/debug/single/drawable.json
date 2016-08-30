@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/R/Desktop/汽车之家/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/R/Desktop/汽车之家/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/R/Desktop/汽车之家/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/R/Desktop/汽车之家/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/R/Desktop/gitdemo/AutoHome/汽车之家/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/R/Desktop/gitdemo/AutoHome/汽车之家/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/R/Desktop/gitdemo/AutoHome/汽车之家/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/R/Desktop/gitdemo/AutoHome/汽车之家/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/R/Desktop/徐金/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/R/Desktop/徐金/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/R/Desktop/徐金/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/R/Desktop/徐金/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
+    }
+]

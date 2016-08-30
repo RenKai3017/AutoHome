@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dis_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eae8e8"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="发现"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_below="@+id/dis_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e4e3e2"
+        android:id="@+id/tv_dis_line"/>
+
+    <com.lanou3g.autohome.tool.GoTopScrollView
+        android:layout_below="@+id/tv_dis_line"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/go_top_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_wheel"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"/>
+
+                <LinearLayout
+                    android:id="@+id/dot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:gravity="right"
+                    android:orientation="horizontal"/>
+
+
+                <com.lanou3g.autohome.tool.BrandGridView
+                    android:id="@+id/grid_audio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#e4e3e2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:text="活动专区"/>
+
+                        <TextView
+                            android:id="@+id/tv_more_activity"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="更多活动"
+                            android:textColor="#dedddb"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_more_one"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@mipmap/ic_launcher"/>
+
+                        <ImageView
+                            android:id="@+id/iv_more_two"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@mipmap/ic_launcher"/>
+
+                        <ImageView
+                            android:id="@+id/iv_more_three"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@mipmap/ic_launcher"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#e4e3e2"/>
+
+                <TextView
+                    android:id="@+id/tv_grid_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="fas"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e4e3e2"/>
+
+                <com.lanou3g.autohome.tool.BrandGridView
+                    android:id="@+id/grid_dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#e4e3e2"/>
+
+                <TextView
+                    android:id="@+id/_tv_grid_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="fas"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e4e3e2"/>
+
+                <com.lanou3g.autohome.tool.BrandGridView
+                    android:id="@+id/_grid_dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e4e3e2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="商品列表"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e4e3e2"/>
+
+                <com.lanou3g.autohome.tool.MyListView
+                    android:id="@+id/lv_discover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </com.lanou3g.autohome.tool.GoTopScrollView>
+    <ImageView
+        android:id="@+id/iv_return_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/return_top"
+        android:visibility="gone"/>
+</RelativeLayout>

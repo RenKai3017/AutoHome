@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/activity_bulletin_detail_iv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/three_hundred_and_twenty"/>
+
+            <ImageView
+                android:layout_width="@dimen/Thirty_dp"
+                android:layout_height="@dimen/Thirty_dp" />
+
+            <TextView
+                android:id="@+id/activity_bulletin_detail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="编辑：" />
+
+            <TextView
+                android:id="@+id/activity_bulletin_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_toRightOf="@id/activity_bulletin_detail_author"
+                android:text="测试文字" />
+
+            <TextView
+                android:id="@+id/activity_bulletin_detail_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/two_ten_dp"
+                android:layout_toRightOf="@id/activity_bulletin_detail_name"
+                android:text="测试文字" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_typename"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:paddingBottom="@dimen/two_ten_dp"-->
+                <!--android:text="测试文字" />-->
+
+            <TextView
+                android:id="@+id/activity_bulletin_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:paddingBottom="@dimen/two_ten_dp"
+                android:text="测试文字" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_ifEnd"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:background="@color/color_gray_one"-->
+                <!--android:text="测试文字" />-->
+        </RelativeLayout>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="@dimen/five_dp"-->
+            <!--android:text="相关车系" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorbule">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/activity_bulletin_detail_vehicles_iv"-->
+                <!--android:layout_width="@dimen/Fifty_dp"-->
+                <!--android:layout_height="@dimen/Forty_dp"-->
+                <!--android:layout_margin="@dimen/five_dp"-->
+                <!--android:src="@mipmap/ic_launcher" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_vehicles_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/five_dp"-->
+                <!--android:layout_toRightOf="@id/activity_bulletin_detail_vehicles_iv"-->
+                <!--android:text="测试文字" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_vehicles_price"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/activity_bulletin_detail_vehicles_name"-->
+                <!--android:layout_marginTop="@dimen/five_dp"-->
+                <!--android:layout_toRightOf="@id/activity_bulletin_detail_vehicles_iv"-->
+                <!--android:text="测试文字" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/two_ten_dp"-->
+                <!--android:layout_height="@dimen/two_ten_dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="@dimen/five_dp"-->
+                <!--android:src="@mipmap/ic_launcher" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="@dimen/zoo_dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="@dimen/ten_dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="@dimen/ten_dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="测试文字" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="@dimen/zoo_dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="@dimen/ten_dp"-->
+                    <!--android:layout_height="@dimen/ten_dp"-->
+                    <!--android:src="@mipmap/ic_launcher" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="测试文字" />-->
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five_dp"
+            android:text="快报内容" />
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/activity_bulletin_detail_headIv"-->
+                <!--android:layout_width="@dimen/Fifty_dp"-->
+                <!--android:layout_height="@dimen/Fifty_dp"-->
+                <!--android:layout_margin="@dimen/five_dp"-->
+                <!--android:src="@mipmap/ic_launcher" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_prople_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/five_dp"-->
+                <!--android:layout_toRightOf="@id/activity_bulletin_detail_headIv"-->
+                <!--android:text="测试文字" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_prople_time"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/activity_bulletin_detail_prople_name"-->
+                <!--android:layout_marginTop="@dimen/five_dp"-->
+                <!--android:layout_toRightOf="@id/activity_bulletin_detail_headIv"-->
+                <!--android:text="测试文字" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_bulletin_detail_prople_body"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/activity_bulletin_detail_headIv"-->
+                <!--android:layout_margin="@dimen/five_dp"-->
+                <!--android:layout_marginTop="@dimen/five_dp"-->
+                <!--android:text="测试文字" />-->
+        <!--</RelativeLayout>-->
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

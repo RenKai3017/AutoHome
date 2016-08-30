@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red_226">#E25E5E</color>
+    <color name="error_color">#FF4081</color>
+
+    <color name="transparent">#FFFFFF</color>
+    <color name="font_text">#666</color>
+    <color name="color_999">#999</color>
+    <color name="color_eee">#eee</color>
+    <color name="font_info">#edecec</color>
+    <color name="font_tips">#CCC</color>
+    <color name="divider">#EEE</color>
+    <color name="border_block">#EAEAEA</color>
+    <color name="textcolor">#63B8FF</color>
+    <color name="color_ccc">#CCC</color>
+    <color name="white">#63B8FF</color>
+
+
+
+    <color name="colorGray">#999999</color>
+    <color name="color_gray_one">#cccccc</color>
+    <color name="colorBule">#3366CC</color>
+    <color name="colorRed">#CC0000</color>
+    <color name="colorbule">#99FFFF</color>
+    <color name="colorgray">#6699FF</color>
+    <color name="colorBalck">#000000</color>
+    <color name="colorWhilt">#ffffff</color>
+
+</resources>
